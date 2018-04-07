@@ -1,0 +1,162 @@
+﻿<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+	<div class="outer">
+ <div class="footer">
+	<div class="container">
+		<div class="row">
+			<?php if ($informations) { ?>
+			<div class="col-sm-15">
+				<div class="block">
+					<div class="block-heading">
+						<?php echo $text_information; ?>
+					</div>
+					<div class="block-content">
+						<ul>
+						<li><a href="blog">Блог</a></li>
+							<?php foreach ($informations as $information) { ?>
+							<li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+							<?php } ?>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<?php } ?>
+			<div class="col-sm-15">
+				<div class="block">
+					<div class="block-heading">
+						<?php echo $text_service; ?>
+					</div>
+					<div class="block-content">
+						<ul>
+
+
+
+<!-- <li><a href="http://antika.biz.ua/gelio.html">Гелио</a></li>
+<li><a href="http://antika.biz.ua/teplovye-nasosy.html">Тепловые насосы</a></li>
+<li><a href="http://antika.biz.ua/jelektro.html">Электро</a></li> -->
+<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+
+
+						<!--	<li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		<!--	<div class="col-sm-3">
+				<div class="block">
+					<div class="block-heading">
+						<?php echo $text_extra; ?>
+					</div>
+					<div class="block-content">
+						 <ul>
+							<li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
+							<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+							<li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
+							<li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
+						</ul>
+
+				<ul>
+<li><a href="http://antika.biz.ua/terms">Условия</a></li>
+<li><a href="http://antika.biz.ua/for_installation_companies">Для монтажных организаций</a></li>
+<li><a href="http://antika.biz.ua/for_sales_organizations">Для торговых организаций</a></li>
+</ul>
+
+
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="block">
+					<div class="block-heading">
+						<?php echo $text_account; ?>
+					</div>
+					<div class="block-content">
+						<ul>
+							<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+							<li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+							<li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
+							<li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
+						</ul>
+
+
+				<ul>
+<li><a href="http://antika.biz.ua/partner1">Партнер по гелио</a></li>
+<li><a href="http://antika.biz.ua/partner2">Партнер по тепловым насосам</a></li>
+<li><a href="http://antika.biz.ua/partner3">Партнер по электро</a></li>
+</ul>
+
+
+
+					</div>
+				</div>
+			</div> -->
+
+
+<div class="col-sm-15 headcont">
+	<p>г. Одесса, <br>ул. Маразлиевская 16<br><br></p>
+	<!-- <span style="font-size: 20px;">☏ </span><span id="podmena-tel-odessa" class="binct-phone-number-1"> -->
+	<p><span style="font-size: 20px;">☏</span> <span id="podmena-tel-odessa" class="binct-phone-number-1"> <a id="numberss-1" class="click-telephone" href="tel:+380487376562" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 (048) 737-65-62</a></span></p>
+	<p><span style="font-size: 20px;">☏</span> <span id="podmena-tel-odessa" class="binct-phone-number-2"> <a id="numberss-2" class="click-telephone" href="tel:+380673177875" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 (067) 317-78-75</a></span></p>
+	<p><span style="font-size: 20px;">☏</span> <span id="podmena-tel-odessa" class="binct-phone-number-4"> <a id="numberss-3" class="click-telephone" href="tel:+380506466208" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 (050) 646-62-08</a></span></p>
+	</span>
+	<p><br><span style="font-size: 20px;"></span>manager@antika.com.ua</p>
+	<p>Время работы: с 09 до 18</p>
+</div>
+<div class="col-sm-15 headcont">
+	<p>г. Черноморск, <br>ул. Победы 6<br><br></p>
+	<p><span style="font-size: 20px;">☏</span> <a id="numberss-4" class="click-telephone" href="tel:‎+380732058351" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">‎+38 073 205 83 51</a></p>
+	<p><span style="font-size: 20px;"></span>antika.sales@gmail.com</p>
+	<p>Время работы: с 09 до 18</p>
+</div>
+<div class="col-sm-15 headcont">
+	<p>г. Харьков<br><br></p>
+	<!-- <p><span style="font-size: 20px;">☏</span> <a id="numberss-4" class="click-telephone" style="color:#11B352; text-decoration:underline; text-decoration-style:dotted;" href="tel:+380577274411" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 057 727 44 11</a></p>
+	<p><span style="font-size: 20px;">☏</span> <a id="numberss-5" class="click-telephone" style="color:#11B352; text-decoration:underline; text-decoration-style:dotted;" href="tel:+38‎0501377071" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 ‎050 137 70 71</a></p>
+	<p><span style="font-size: 20px;">☏</span> <a id="numberss-6" class="click-telephone" style="color:#11B352; text-decoration:underline; text-decoration-style:dotted;" href="tel:+380672001144" onclick="yaCounter37417745.reachGoal('Вызов телефона'); return true;">+38 067 200 11 44</a></p> -->
+	<p><span style="font-size: 20px;"></span>antika.sales@gmail.com</p>
+	<p>Время работы: с 09 до 18</p>
+</div>
+		</div>
+	</div>
+	</div>
+	</div>
+</footer>
+<div class="outer">
+	<!-- copyright -->
+	<div id="copyright">
+		<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
+	</div>
+</div>
+<script type="text/javascript" 	src="catalog/view/theme/<?php echo $this->config->get('config_template');?>/js/livesearch.js"></script>
+</div>
+</div>
+</div>
+<!-- этот код подмены номера вставляется перед закрывающим тегом </BODY> -->
+<script type="text/javascript" charset="utf-8" src="//istat24.com.ua/js/replace.js"></script>
+<script type="text/javascript">replaceIstatDynamic(1,944);</script>
+<!-- конец кода который вставляется перед закрывающим тегом </BODY> -->
+
+<script type="text/javascript">
+  (function(d, w, s) {
+    var widgetHash = 'ikQHBZoQeG', ctw = d.createElement(s); ctw.type = 'text/javascript'; ctw.async = true;
+    ctw.src = '//widgets.binotel.com/calltracking/widgets/'+ widgetHash +'.js';
+    var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(ctw, sn);
+  })(document, window, 'script');
+</script>
+
+<script type="text/javascript">
+  (function(d, w, s) {
+    var widgetHash = 'IOZTrwsOn6', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+    gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+    var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+  })(document, window, 'script');
+</script>
+</body></html>
